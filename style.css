@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #efbebe;
+    font-family: 'Cinzel', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background-color: #bc8f8f;
+    border-radius: 50px;
+}
