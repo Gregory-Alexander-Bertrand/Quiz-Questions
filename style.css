@@ -15,4 +15,40 @@ body {
 .quiz-container {
     background-color: #bc8f8f;
     border-radius: 50px;
+    width: 700px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+
+.quiz-questions {
+    padding: 2rem;
+}
+
+h2 {
+    padding: 1rem;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #fff5ee;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+
+button:hover {
+    background-color: #deb887;
 }
